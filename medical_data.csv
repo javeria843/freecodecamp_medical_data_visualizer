@@ -1,0 +1,14 @@
+Column	Description	Type	Values
+id	Patient ID	Integer	Unique values
+age	Age in days	Integer	e.g., 18393 (≈ 50 years)
+gender	Gender code	Categorical	1 = female, 2 = male (in some versions)
+height	Height in cm	Integer	e.g., 160, 170
+weight	Weight in kg	Float	e.g., 70.5, 90
+ap_hi	Systolic blood pressure	Integer	e.g., 120, 140
+ap_lo	Diastolic blood pressure	Integer	e.g., 80, 90
+cholesterol	Cholesterol level	Categorical	1 = normal, 2 = above normal, 3 = high
+gluc	Glucose level	Categorical	1 = normal, 2 = above normal, 3 = high
+smoke	Smoker status	Binary	0 = No, 1 = Yes
+alco	Alcohol intake	Binary	0 = No, 1 = Yes
+active	Physical activity	Binary	0 = No, 1 = Yes
+cardio	Target: Cardiovascular disease	Binary	0 = No, 1 = Yes
